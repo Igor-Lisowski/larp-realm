@@ -5,7 +5,7 @@
 
   .home-image::part(image) {
     object-fit: none;
-    height: 30vw;
+    height: 40vw;
   }
 }
 
@@ -13,12 +13,18 @@
   position: absolute;
   top: 20vw;
   left: 50%;
-  background: white;
-  width: 25vw;
-  height: 5vw;
-  line-height: 5vw;
+  width: 30vw;
+  height: 7.5vw;
+  min-height: 5rem;
   transform: translate(-50%, -50%);
-  font-size: 1.5vw;
   text-align: center;
   --color: black;
+
+  .card-title {
+    font-size: 1.5vw;
+  }
+
+  .card-content {
+    font-size: 1vw;
+  }
 }
