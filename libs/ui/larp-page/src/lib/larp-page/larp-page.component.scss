@@ -1,0 +1,13 @@
+.image-container {
+  position: relative;
+  margin: 0 auto;
+
+  .home-image::part(image) {
+    object-fit: none;
+    height: 200px;
+  }
+}
+
+.author-image::part(image) {
+  border-radius: 50%;
+}

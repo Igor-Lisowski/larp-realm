@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@larp-realm/home": ["libs/ui/home/src/index.ts"]
+      "@larp-realm/home": ["libs/ui/home/src/index.ts"],
+      "@larp-realm/larp-page": ["libs/ui/larp-page/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
