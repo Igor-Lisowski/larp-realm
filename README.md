@@ -11,4 +11,4 @@
 
 ## Start
 
-`npm start`
+`nx serve ui`
